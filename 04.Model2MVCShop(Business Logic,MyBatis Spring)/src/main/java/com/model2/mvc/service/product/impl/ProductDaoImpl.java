@@ -13,7 +13,7 @@ import com.model2.mvc.service.domain.Product;
 import com.model2.mvc.service.product.ProductDao;
 
 @Repository("productDaoImpl")
-public class ProdcutDaoImpl implements ProductDao {
+public class ProductDaoImpl implements ProductDao {
 	
 	///Field
 	@Autowired
@@ -24,7 +24,7 @@ public class ProdcutDaoImpl implements ProductDao {
 	}
 	
 	///Constructor
-	public ProdcutDaoImpl() {
+	public ProductDaoImpl() {
 		System.out.println(this.getClass());
 	}
 	///Method
